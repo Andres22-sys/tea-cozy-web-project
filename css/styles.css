@@ -1,0 +1,151 @@
+/* ----- GLOBAL STYLING ----- */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  box-sizing: border-box;
+  margin: 40px;
+}
+
+/* ----- HEADER STYLING ----- */
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+header img {
+  height: 50px;
+  width: 200px;
+  margin-left: 10px;
+}
+
+header li {
+  display: inline;
+  margin-right: 20px;
+}
+
+ul, a {
+    list-style: none;
+    color: seashell;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* ----- MAIN SECTION STYLING ----- */
+
+main {
+  position: relative;
+  margin-top: 80px;
+}
+
+section {
+  padding: 10px 0;
+}
+
+/* ----- MiSSION SECTION STYLING ----- */
+
+.mission-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/images/img-mission-background.jpg");
+  background-size: cover;
+  height: 700px;
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.mission {
+  background-color: black;
+  width: 100%;
+  opacity: 0.88;
+}
+
+/* ----- TEAS SECTION STYLING ----- */
+
+.featured-tea {
+  height: 500px;
+  width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.teas img{
+    height: 200px;
+    width: 300px;
+}
+
+.teas {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 30px 0;
+}
+
+/* ----- LOCATION SECTION STYLING ----- */
+
+.locations {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("../assets/images/img-locations-background.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 280px;
+}
+
+.places {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.location {
+  background-color: black;
+  width: 300px;
+  line-height: 1.5;
+  margin: 40px;
+  opacity: 0.85;
+}
+
+.location:hover {
+  opacity: 1;
+}
+
+.locations h2 {
+  margin-bottom: 0;
+}
+
+/* ----- CONTACT SECTION STYLING ----- */
+
+.contact {
+  height: 200px;
+  text-align: center;
+}
+
+/* ----- FOOTER STYLING ----- */
+
+.footer {
+  margin-left: 20px;
+}
